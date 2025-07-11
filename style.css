@@ -196,3 +196,26 @@ color: #181818;
 .get-touch{
     width: 510px;
 }
+.end{
+    background-color: white;
+    text-align: center;
+    padding: 50px 450px 80px 450px;
+}
+.end-logo{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.end-description{
+    color: #8987A1;
+
+}
+.end-link{
+    display: flex;
+    justify-content: space-around;
+    color: #8987A1;
+  text-decoration: none;
+
+}
+.end-link a{
+    text-decoration: none;
+}
