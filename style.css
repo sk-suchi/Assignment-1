@@ -40,15 +40,23 @@ nav li a{
     font-weight:bold;
 }
 
-.btn-primary{
-    background-color:#4E47FF;
+.btn-primary {
+    background-color: #4E47FF;
     color: white;
-   font-size: 16px;
-   font-weight: bold;
-   border-radius: 10px;
-   padding:12px 36px;
-   border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
 }
+
+.btn-primary:hover {
+    background-color: #f5c72e;  
+    transform: scale(1.05);    
+}
+
 .banner-title{
 font-weight: bold;
 font-size: 65px;
